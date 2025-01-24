@@ -1,0 +1,86 @@
+body{
+    background-image: url('perfum\ 1.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+.menu{
+    width: 480px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ff7200;
+}
+ .logo img{
+    float: left;
+    margin-top: 18px;
+    width: 25px;
+    height: auto;
+ }
+ ul li a:hover{
+    color: rgb(19, 223, 56);
+ }
+ .srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 120px;
+    height: 30px;
+    background: transparent;
+    float: left;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: rgb(231, 226, 219);
+    border-right: none;
+    font-size: 10px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+
+ }
+ .btn{
+    width: 80px;
+    height: 30px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color-scheme: #fff;
+    font-size: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+ }
+ .btn:focus{
+    outline:none;
+ }
+ .srch:focus{
+    outline:none;
+ }
+ 
